@@ -20,5 +20,6 @@ public class Solution {
         for (int i = 0; i < t; i++) {
             a[i] = scanner.nextInt();
         }
+        Arrangement(a);
     }
 }
