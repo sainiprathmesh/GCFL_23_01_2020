@@ -1,6 +1,7 @@
 package Pendulum_Arrangment;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Solution {
     static void Arrangement(int[] a) {
@@ -23,7 +24,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
 
