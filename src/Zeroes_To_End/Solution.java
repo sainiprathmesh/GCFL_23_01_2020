@@ -10,4 +10,8 @@ public class Solution {
             System.out.print(n[i] + " ");
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
