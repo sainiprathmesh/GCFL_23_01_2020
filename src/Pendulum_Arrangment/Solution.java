@@ -21,4 +21,10 @@ public class Solution {
             System.out.print(op[i] + " ");
         System.out.println();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
+
+
