@@ -25,6 +25,15 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int testCases = scanner.nextInt();
+        for (int i = 0; i < testCases; i++) {
+            int len = scanner.nextInt();
+            int[] arr = new int[len];
+            for (int i1 = 0; i1 < len; i1++) {
+                arr[i] = scanner.nextInt();
+            }
+            Arrangement(arr);
+        }
     }
 }
 
