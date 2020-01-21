@@ -14,7 +14,6 @@ public class Solution {
             System.out.print(value + " ");
         }
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
