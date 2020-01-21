@@ -1,5 +1,7 @@
 package Zeroes_To_End;
 
+import java.util.Scanner;
+
 public class Solution {
     static void Arrangement(int[] a) {
         int[] n = new int[a.length];
@@ -12,6 +14,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }
