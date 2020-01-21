@@ -15,5 +15,10 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
+        int[] a = new int[t];
+        for (int i = 0; i < t; i++) {
+            a[i] = scanner.nextInt();
+        }
     }
 }
