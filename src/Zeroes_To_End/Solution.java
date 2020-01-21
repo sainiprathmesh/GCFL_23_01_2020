@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class Solution {
     static void Arrangement(int[] a) {
-        int[] n = new int[a.length];
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] != 0) {
-                n[i] = a[i];
-            }
-            System.out.print(n[i] + " ");
+        int count = 0;
+        for (int i = 0; i < a.length; i++)
+            if (a[i] != 0)
+                a[count++] = a[i];
+        while (count < a.length)
+            a[count++] = 0;
+        for (int value : a) {
+            System.out.print(value + " ");
         }
     }
 
