@@ -11,8 +11,8 @@ public class Solution {
         int j = 1, i = 1;
         op[mid] = arr[0];
         for (i = 1; i <= mid; i++) {
-            op[mid + i] = arr[j++];
-            op[mid - i] = arr[j++];
+            op[mid + i] = arr[j + 1];
+            op[mid - i] = arr[j + 1];
         }
         if (n % 2 == 0)
             op[mid + i] = arr[j];
